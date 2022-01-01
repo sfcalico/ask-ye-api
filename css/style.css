@@ -1,3 +1,37 @@
 h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Rampart One', cursive;
   background: chartreuse;
+}
+p {
+  display: flex;
+  font-family: 'Architects Daughter', cursive;
+  border-style: inset;
+  color:darkred;
+  font-weight: bold;
+  background-color:yellow;
+}
+button {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 15px;
+  background-color: chartreuse;
+}
+button:hover {
+  transform: translate(-2px);
+  background-color: rgba(201, 173, 49, 0.801);
+}
+section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: gold;
+}
+body {
+  background-image: url('https://img.stadiumgoods.com/adidas-yeezy-yeezy-foam-runner-ochre_17190084_35312154_1000.jpg');
+}
+container2 {
+  display: flex;
+
 }
